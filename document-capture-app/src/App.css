@@ -1,0 +1,60 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container {
+  max-width: 600px;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.extracted-data {
+  margin-top: 20px;
+}
+
+.extracted-data h2 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.extracted-data p {
+  font-size: 16px;
+}
